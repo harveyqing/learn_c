@@ -1,6 +1,15 @@
 /* Insertion sort
  *
  * Implementation of insertion sort.
+ *
+ * Time Complexity: O(n*n)
+ * Auxiliary Space: O(1)
+ * Boundary Cases: Insertion sort takes maxinum time to sort if elements are
+ *                 sorted in reverse order. And it takes minimum time
+ *                 (Order of n) when elements are already sorted.
+ * Algorithm Paradigm: Incremental Approach
+ * Sorting In Place: Yes
+ * Stable: Yes
  */
 
 #include <stdio.h>
